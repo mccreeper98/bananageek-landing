@@ -1,0 +1,505 @@
+body{
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.info{
+  position: fixed;
+  height: 60px;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.logo{
+  width: 123px;
+  height: 48px;
+  margin: 0 350.7px 0 25px;
+  object-fit: contain;
+}
+
+.contact{
+  padding-right: 1rem;
+}
+
+.link{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #455464;
+}
+
+.contact a img{
+  margin-left: .5rem;
+  margin-right: .5rem;
+  width: 30px;
+  height: auto;
+}
+
+.withespace{
+  height: 60px;
+}
+
+.header{
+    background-image: url("../img/header.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding-top: 41px;
+    padding-left: 21px;
+}
+
+.necesitas {
+    width: 547px;
+    height: 66px;
+    margin: 0 186px 8px 0;
+    font-family: Raleway;
+    font-size: 56px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #455464;
+}
+
+.imaginas {
+    width: 733px;
+    height: 108px;
+    margin: 8px 0 2px 0px;
+    font-family: Raleway;
+    font-size: 49px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    color: #f5b723;
+  }
+
+  .somos {
+    width: 505px;
+    height: 29px;
+    margin: 2px 228px 23px 0;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #455464;
+  }
+
+  .cotiza{
+      background-color: #7ed321;
+      border-radius: 8px;
+  }
+
+  .header-logo{
+    margin-left: 10%;
+      width: 250px;
+  }
+
+  .clientes{
+      width: 100%;
+      text-align: center;
+      align-content: center;
+  }
+
+  .ellos {
+    height: 31px;
+    margin: 71.1px 10.3px 0.1px 102.4px;
+    font-family: Raleway;
+    font-size: 26.7px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #455464;
+  }
+
+  .logramos {
+    height: 41px;
+    margin: 0.1px 17.6px 26.6px 48.1px;
+    font-family: Raleway;
+    font-size: 35.6px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #455464;
+  }
+  .logramos span {
+    font-weight: bold;
+  }
+
+  .linea {
+    width: 351.1px;
+    height: 0.9px;
+    margin: 0 auto;
+    border: solid 0.9px #73be44;
+    margin-bottom: 26.6px;
+  }
+
+  .images{
+    justify-content: center;
+    display: flex;
+  }
+
+  .images img{
+    width: 130px;
+  }
+
+  .comillas{
+      margin-top: 40px;
+      margin-bottom: 30px;
+      width: 60px;
+  }
+
+  .testimonial-container {
+    font-family: Raleway;
+    font-size: 23.1px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    margin: 20px auto;
+    padding: 50px 80px;
+    max-width: 800px;
+    position: relative;
+  }
+  
+  .testimonial {
+    line-height: 28px;
+    text-align: justify;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .user .user-details {
+    margin-left: 10px;
+  }
+  
+  .user .role {
+    font-family: Raleway;
+    font-size: 14.2px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #7e7d7d;
+    margin: 10px 0;
+  }
+  
+  .progress-bar {
+    background-color: #7e7d7d5d;
+    height: 4px;
+    width: 100%;
+    animation: grow 10s linear infinite;
+    transform-origin: left;
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scaleX(0);
+    }
+  }
+  
+  @media(max-width: 768px) {
+    .testimonial-container {
+      padding: 20px 30px;
+    }
+  }
+
+  .cards img{
+      width: 100%;
+      height: auto;
+  }
+
+  .cartas{
+    line-height: 0;
+  }
+
+  .cartas .row .col{
+      padding: 0;
+  }
+
+  .mc-item__caption{
+    background-color: #fff !important;
+  }
+
+  .valign{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mc-item__caption h2{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f5b723;
+  }
+  
+  .mc-item__caption p{
+    width: 90%;
+    margin: 0 auto;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #455464;
+  }
+
+  .proceso{
+    text-align: center;
+  }
+
+  .nuestro {
+    height: 62px;
+    margin: 72.6px 61px 18.4px 6.8px;
+    font-family: Raleway;
+    font-size: 53.3px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #455464;
+    text-transform: uppercase;
+  }
+
+  .nuestro span{
+    font-weight: bold;
+  }
+
+  .pasos{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .paso{
+    width: 280px;
+  }
+
+  .paso img{
+    width: 100%;
+  }
+
+  .tecnologies{
+    padding-top: 5rem;
+    background-color: #f7f7f7;
+    align-content: center;
+    text-align: center;
+  }
+
+  .tecnologias {
+    height: 29px;
+    margin: 0 380px 6px 381px;
+    font-family: Raleway;
+    font-size: 24.3px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #455464;
+  }
+
+  .title {
+    height: 62px;
+    margin: 6px 313px 39px 314px;
+    font-family: Raleway;
+    font-size: 53.3px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #455464;
+    text-transform: uppercase;
+  }
+
+  .title span{
+    font-weight: normal;
+  }
+  
+  .ext{
+    width: 35%;
+  }
+
+  .mob{
+    width: 38%;
+  }
+
+  .dis{
+    width: 30%;
+  }
+
+  .web{
+    width: 70%;
+  }
+
+  .separador{
+    height: 8rem;
+  }
+
+  .nosotros{
+    text-align: center;
+  }
+
+  .nosotros img{
+    width: 100%;
+  }
+
+  .nosotros a{
+    margin-top: -10%;
+  }
+
+  .contacto{
+    padding-top: 3rem;
+    text-align: center;
+  }
+
+  .cuentanos {
+    width: 655.1px;
+    height: 109.3px;
+    margin: 0 auto;
+    font-family: Raleway;
+    font-size: 35.6px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #455464;
+    text-align: left;
+  }
+
+  .logoc{
+    width: 130px;
+  }
+
+  .contact-info{
+    width: 326px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #455464;
+    text-align: left;
+  }
+
+  .contact-info img{
+    width: 16px;
+  }
+
+  .m{
+    margin-left: 24px;
+  }
+
+  .s{
+    font-weight: bold;
+  }
+
+  .foot{
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .foot p{
+  height: 16px;
+  margin: 107.7px 69px 0 14.8px;
+  font-family: Raleway;
+  font-size: 14.2px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #455464;
+}
+
+input{
+  background-color: #f6f6f6 !important;
+  border-bottom: 1px solid #f6f6f6 !important;
+  font-size: 13.3px;
+  height: 2rem !important;
+  padding-left: 10px !important;
+}
+
+.input-field{
+  margin-top: 0;
+  padding-left: 10px !important;
+}
+
+.input-field.col label {
+  font-size: 13.3px;
+  padding-left: 10px;
+  transform: translateY(8px);
+}
+
+.formulario .row{
+  margin-bottom: 0;
+}
+
+.formulario p{
+  margin: 0;
+  padding: 0;
+}
+
+[type="checkbox"]+label {
+  padding-top: 3px;
+  font-family: Raleway;
+  font-size: 10.7px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #455464;
+}
