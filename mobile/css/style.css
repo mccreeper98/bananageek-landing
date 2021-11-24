@@ -4,7 +4,7 @@ body{
 }
 
 .info{
-  position: fixed;
+  position: fixed ;
   height: 60px;
   width: 100vw;
   background-color: #fff;
@@ -25,7 +25,7 @@ body{
 .link{
   margin-left: 1rem;
   margin-right: 1rem;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
@@ -39,7 +39,7 @@ body{
 .contact a img{
   margin-left: .5rem;
   margin-right: .5rem;
-  width: 30px;
+  width: 60px;
   height: auto;
 }
 
@@ -50,8 +50,15 @@ body{
 .header{
     width: 100%;
     text-align: center;
-    margin-bottom: 5rem;
+    background-image: url("../img/recortado.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding: 12px 15px 76px;;
+    object-fit: contain;
+    margin: 0 0 50px 1px;
+   
 }
+
 
 .header img{
   width: 100%;
@@ -59,40 +66,52 @@ body{
 }
 
 .necesitas {
-    font-family: Raleway;
-    font-size: 33px;
-    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    font-size: 47px;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
-    line-height: normal;
+    line-height: 1.34;
     letter-spacing: normal;
     text-align: center;
-    color: #455464;
+    color: #fff;
+    
+}
+
+.necesitas span{
+  margin: 0px;
+  font-size: 73.9px;
 }
 
 .imaginas {
-    font-family: Raleway;
-    font-size: 36px;
-    font-weight: 800;
+    margin: 0px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.14;
+    line-height: 1.23;
     letter-spacing: normal;
     text-align: center;
-    color: #f5b723;
-  }
+    color: #fff;
+  
+ 
+}
+  
 
   .somos {
-    font-family: Raleway;
-    font-size: 24px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    white-space: pre-wrap;
-    color: #455464;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
   }
 
   .cotiza{
@@ -100,7 +119,7 @@ body{
       border-radius: 8px;
       width: 180px;
       height: 46px;
-      font-family: Raleway;
+      font-family: 'Raleway', sans-serif;
       font-size: 18.4px;
       font-weight: 800;
       font-stretch: normal;
@@ -109,6 +128,8 @@ body{
       letter-spacing: 1px;
       text-align: center;
       color: #ffffff;
+
+      
   }
 
   .clientes{
@@ -116,39 +137,63 @@ body{
       text-align: center;
       align-content: center;
   }
+  .titulos{
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.nuestro{
+  margin: 50px 39px 7px;
+  background-image: linear-gradient(to bottom, #fad961, #f76b1c 212%);
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nuestro span{
+  font-size: 30px;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
   .ellos {
-    font-family: Raleway;
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #455464;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #455464;
   }
 
   .logramos {
-    font-family: Raleway;
-    font-size: 24px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
-    letter-spacing: normal;
+    /* letter-spacing: normal; */
     text-align: center;
     color: #455464;
   }
   .logramos span {
     font-weight: bold;
-  }
-
-  .linea {
-    margin: 0 auto;
-    width: 93%;
-    height: 0.9px;
-    border: solid 0.9px #73be44;
   }
 
   .images{
@@ -169,7 +214,7 @@ body{
   }
 
   .testimonial-container {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 23.1px;
     font-weight: normal;
     font-stretch: normal;
@@ -200,7 +245,7 @@ body{
   }
   
   .user .role {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 14.2px;
     font-weight: normal;
     font-stretch: normal;
@@ -238,6 +283,7 @@ body{
   }
 
   .cartas{
+    margin: 10px 0px 0px;
     line-height: 0;
   }
 
@@ -245,12 +291,12 @@ body{
       padding: 0;
   }
 
-  .mc-item__caption{
+  .info_portafolio{
     background-color: #fff !important;
   }
 
-  .mc-item__caption h2{
-    font-family: Raleway;
+  .info_portafolio h2{
+    font-family: 'Raleway', sans-serif;
     font-size: 25px;
     font-weight: bold;
     font-stretch: normal;
@@ -261,10 +307,10 @@ body{
     color: #f5b723;
   }
   
-  .mc-item__caption p{
+  .info_portafolio p{
     width: 90%;
     margin: 0 auto;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
@@ -280,7 +326,7 @@ body{
   }
 
   .nuestro {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: normal;
     font-stretch: normal;
@@ -322,7 +368,7 @@ body{
   }
 
   .tecnologias {   
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 24.3px;
     font-weight: bold;
     font-stretch: normal;
@@ -334,9 +380,9 @@ body{
   }
 
   .title {
-    margin-top: 0;
-    font-family: Raleway;
-    font-size: 45px;
+    margin: 53px 99.5px 28px 100.5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -344,7 +390,6 @@ body{
     letter-spacing: normal;
     text-align: center;
     color: #455464;
-    text-transform: uppercase;
   }
 
   .title span{
@@ -384,7 +429,7 @@ body{
       border-radius: 8px;
       width: 258px;
   height: 62px;
-      font-family: Raleway;
+      font-family: 'Raleway', sans-serif;
       font-size: 18.6px;
       font-weight: 800;
       font-stretch: normal;
@@ -398,21 +443,22 @@ body{
   }
 
   .contacto{
-    padding-top: 8rem;
+    padding-top: 1rem;
     text-align: center;
   }
 
   .cuentanos {
-    margin: 0 auto;
-    font-family: Raleway;
-    font-size: 24px;
-    font-weight: 900;
+    margin: 14px 39px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.21;
+    line-height: 1.69;
     letter-spacing: normal;
-    color: #455464;
     text-align: center;
+    color: #455464;
+
   }
 
   .logoc{
@@ -421,12 +467,12 @@ body{
   }
 
   .contact-info{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.5;
+    line-height: 1.06;
     letter-spacing: normal;
     color: #455464;
     text-align: left;
@@ -446,21 +492,22 @@ body{
 
   .foot{
     text-align: center;
-    padding: 5rem 0;
+    padding: 2rem 0;
   }
 
   .foot p{
-  height: 16px;
-  font-family: Raleway;
-  font-size: 14.2px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  white-space: pre-wrap;
-  text-align: center;
-  color: #455464;
+    margin: 33px 32px 0 12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #455464;
+ 
+  
 }
 
 input{
@@ -472,14 +519,26 @@ input{
 }
 
 .input-field{
-  margin-top: 0;
-  padding-left: 10px !important;
+  /* margin-top: 0;
+  padding-left: 10px !important; */
+  height: 50px;
+  padding: 16px 175px 16px 25px;
+  border-radius: 5px;
+  background-color: #f6f6f6;
 }
 
 .input-field.col label {
-  font-size: 13.3px;
+  /* font-size: 13.3px;
   padding-left: 10px;
-  transform: translateY(8px);
+  transform: translateY(8px); */
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4c4c4c;
 }
 
 .formulario .row{
@@ -493,7 +552,7 @@ input{
 
 [type="checkbox"]+label {
   padding-top: 3px;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 10.7px;
   font-weight: 500;
   font-stretch: normal;
@@ -502,4 +561,122 @@ input{
   letter-spacing: normal;
   color: #455464;
 }
+
+
+/* dansDev */
+
+
+.Rectangle { 
+ 
+  border-radius: 9.2px;
+  padding: 10px;
+  background-image: linear-gradient(to bottom, #fbdc49, #f5b723);
+}
+.Cotiza-Hoy {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 18.4px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+}
+
+
+img.banana-geek {
+  width: 95.1px;
+  height: 77px;
+  margin: 0 1px 147px 0px;
+  object-fit: contain;
+}
+
+.cli_posicion{
+  width: 100%;
+  text-align: center;
+  align-content: center;
+}
+
+
+.nuestro-portafolio {
+  background-image: linear-gradient(to bottom, #fad961, #f76b1c 212%);
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nuestro-portafolio .text-style-1 {
+  font-size: 30px;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
   
+.familia{
+  margin: 49px 24px 20px;
+  background-image: linear-gradient(to bottom, #fad961, #f76b1c 212%);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.apasionados{
+  margin: 20px 21px 17px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  text-align: center;
+  color: #231f20;
+}
+
+.contenedor-carrusel{
+
+  width:100%;
+  height: 200px;
+}
+
+  img.enviar{
+  object-fit: contain;
+  position: center;
+  }
+
+  .proc{
+    width: 137px;
+    height: 264px;
+    margin: 69px 33.8px 103px 60px;
+    object-fit: contain;
+  }
+  
+  .linea{
+    width: 46px;
+    height: 309px;
+    margin: 46px 19px 81px;
+    object-fit: contain;
+  }
+
+  section{
+background: white;
+  }
+
