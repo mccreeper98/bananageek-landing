@@ -21,8 +21,9 @@
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" href="css/style.css">
@@ -64,26 +65,23 @@
  -->
 
 <!--DansDev--> 
-<section class="hed">
+<section class="hed" style="z-index: -1;">
 <div class="header">
   <img src="img/banana-geek.png" class="banana-geek">
-     <p class="necesitas">¿Necesitas <br><span> una App?</span> </p>
+     <p class="necesitas">¿Necesitas <span>una App?</span> </p>
         <p class="imaginas"> Tu lo imaginas, nosotros lo desarrollamos.</p>
-        <a href="#contacto"><img src="img/group-13-copy.png" style="margin: 49px 7px 19px;
-          object-fit: contain;  height: 46px;"></a>
+        <a href="#contacto"><img src="img/group-13-copy.png" style="margin: 45px 7px 19px; object-fit: contain; width: 100%; height: 46px;"></a>
      <p class="somos">¡Somos expertos y te podemos ayudar!</p>
   </div>
 </section>
 
-<section class="clie">
-  
+<section class="clie" style="background-color: #fff; z-index:999;">
+  <br>
   <div class="titulos">
   <p class="nuestro"> NUESTROS <br><span>CLIENTES</span></p>
-
-            <div class="cli_posicion">
             <p class="ellos">Ellos han confiado en nosotros,</p>
             <p class="logramos">y logramos <span>sorprendentes resultados</span></p>
-  </div>
+  
   </div>
   
   <div class="contenedor-carrusel">
@@ -110,37 +108,45 @@
                 </div>
               </div>
             </div>
-          </div>
+   </section>        
         
-</section>
-<!-- <br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br> <br><br> <br><br><br><br><br><br><br> -->
-<section class="portafolio">
+<section class="portafolio" style="z-index: -1;">
           <div class="titulos">
           <p class="nuestro"> NUESTRO <br><span>PORTAFOLIO  </span>
           </div>
 
-          <div class="cartas">
+<div class="cartas">
+  
+              <div class="efecto">
+              <a href="#modal1" class="modal-trigger"> <img  src="img/landing_petgame_6_Mesa_de_trabajo_1.jpg" alt="">  </a>
+            </div>
+             
+            <div class="efecto">
+              <a href="#modal2" class="modal-trigger"> <img  src="img/landing_isagenix_2_Mesa_de_trabajo_1.jpg" alt="">  </a>
+            </div>
 
             <div class="efecto">
-              <a href="#modal1" class="modal-trigger"> <img src="img/game.png" alt="">  </a>
-            </div> 
-              
-              <div id="modal1" class="modal">
-                <div class="info_portafolio">
-                  <div class="container">
-                <h2>GAMING PARA TABLETA ANDROID</h2>
-                <p>Aplicación tipo Gaming que apoya al equipo de Trade Marketing de la empresa 
-                  Malta Clayton a incentivar la compra en los Puntos de Venta. La App Gaming es 
-                  un telón para la recolección de DATA que se muestran por medio de una plataforma 
-                  web a través de un Dashboard y sirve como herramienta de administración para campañas BTL. <br></p>
-                </div>
-                </div>
-              </div>
+              <a href="#modal3" class="modal-trigger"> <img  src="img/landing_siemens_2_Mesa_de_trabajo_1.jpg" alt="">  </a>
+            </div>
 
-              <div class="efecto">
-              <a href="#modal2" class="modal-trigger"> <img  src="img/ecomerce.png" alt="">  </a>
+            <div class="efecto">
+              <a href="#modal4" class="modal-trigger"> <img    src="img/landing_spirit_3_Mesa_de_trabajo_1.jpg" alt="">  </a>
             </div>
               
+
+            <!-- modal -->
+            <div id="modal1" class="modal">
+              <div class="info_portafolio">
+                <div class="container">
+              <h2>GAMING PARA TABLETA ANDROID</h2>
+              <p>Aplicación tipo Gaming que apoya al equipo de Trade Marketing de la empresa 
+                Malta Clayton a incentivar la compra en los Puntos de Venta. La App Gaming es 
+                un telón para la recolección de DATA que se muestran por medio de una plataforma 
+                web a través de un Dashboard y sirve como herramienta de administración para campañas BTL. <br></p>
+              </div>
+              </div>
+            </div>
+
               <div id="modal2" class="modal">
                 <div class="info_portafolio">
                   <div class="container">
@@ -153,9 +159,7 @@
                 </div>
               </div>
 
-              <div class="efecto">
-              <a href="#modal3" class="modal-trigger"> <img  src="img/elearning.png" alt="">  </a>
-            </div>
+              
               
               <div id="modal3" class="modal">
                 <div class="info_portafolio">
@@ -169,9 +173,7 @@
                 </div>
               </div>
 
-              <div class="efecto">
-              <a href="#modal4" class="modal-trigger"> <img  src="img/bikini.png" alt="">  </a>
-            </div>
+              
               
               <div id="modal4" class="modal">
                 <div class="info_portafolio">
@@ -186,10 +188,7 @@
                 </div>
               </div>
 
-              <div class="efecto">
-              <a href="#modal5" class="modal-trigger"> <img    src="img/app.png" alt="">  </a>
-            </div>
-              
+             
               <div id="modal5" class="modal">
                 <div class="info_portafolio">
                   <div class="container">
@@ -201,85 +200,28 @@
                 </div>
                 </div>
               </div>
-
-              <div class="efecto">
-              <a href="#modal6" class="modal-trigger"> <img   src="img/evento.png" alt="">  </a>
-            </div>
-
-              <div id="modal6" class="modal">
-                <div class="info_portafolio">
-                  <div class="container">
-                    <h2>APLICACIÓN PARA EVENTOS</h2>
-                   <p>Aplicación móvil iOS, Android y Web desarrollada para la empresa 
-                     Telefónica Movistar México. Secciones como agenda, ponentes, push 
-                     notification, ubicación y encuesta permitierón la interacción en tiempo 
-                     real del Evento Tic Forúm 2019.</p>
-                </div>
-                </div>
-              </div>
-
-              <div class="efecto">
-              <a href="#modal7" class="modal-trigger"> <img   src="img/promocional.png" alt="">  </a>
-            </div>
-
-              <div id="modal7" class="modal">
-                <div class="info_portafolio">
-                  <div class="container">
-                    <h2>MININO XMAS</h2>
-                   <p>Sitio web para la campaña de marketing Minino Xmas 2019. Cada producto suma 
-                     puntos ¡Entre mas tickets registres mas oportunidades tienes de ganar! 
-                     La plataforma cuenta con integración de OCR para automatizar la suma de puntos 
-                     y productos contenidos en el ticket de compra.</p>
-                </div>
-                </div>
-              </div>
-
             </div>
 
 
 </section> 
             <br><br>
 
-<section class="pro">
-          <div class="titulos" >
+<section class="pro" style="background-color: #fff; z-index: 999;">
+        <div class="titulos" >
+          <br>
             <p class="nuestro">NUESTRO <span> <br> PROCESO </span></p>
-            </div>
-              <div>
-                <div class="proceso">
-                  <img src="img/linea_1.png" alt="" class="linea">
-                  <img src="img/uno.png" alt="" class="proc">
-                </div>
-              </div>
+            </div> 
+            <div class="proce"> <img src="img/uno.png" alt="" > </div>
+            <div class="proce"> <img src="img/dos.png" alt=""> </div>
+            <div class="proce"> <img src="img/tres.png" alt=""> </div>
+            <div class="proce"> <img src="img/cuatro.png" alt=""> </div>
+            <div class="proce"> <img src="img/cinco.png" alt=""> </div>
+              
+</section>
 
-              <div class="proceso">
-                <img src="img/linea_2.png" alt="" class="linea">
-                <img src="img/dos.png" alt="" class="proc">
-              </div>
-            </div>
-
-            <div class="proceso">
-              <img src="img/linea_3.png" alt="" class="linea">
-              <img src="img/tres.png" alt="" class="proc">
-            </div>
-          </div>
-
-          <div class="proceso">
-            <img src="img/linea_4.png" alt="" class="linea">
-            <img src="img/cuatro.png" alt="" class="proc">
-          </div>
-        </div>
-
-        <div class="proceso">
-          <img src="img/linea_5.png" alt="" class="linea">
-          <img src="img/cinco.png" alt="" class="proc">
-        </div>
-      </div>
-
-</section>          
-
-
-<section class="tec">
+<section class="tec" style="background: #fff; z-index: 999;">
           <div class="tecnologies">
+            <br>
             <p class="nuestro">NUESTRAS <span> <br> TECNOLOGÍAS </span></p>
             <!-- <p class="tecnologias">Tecnologías</p> -->
             <p class="title"> EXTERNAS</p>
@@ -303,9 +245,9 @@
             <!-- <p class="tecnologias">Tecnologías</p> -->
             <p class="title"><span>DESARROLLO</span> Web</p>
             <img class="web" src="img/web.png" alt="Desarrollo web">
-
             <div class="separador"></div>
-          </div>
+         
+        </div>
 
 </section>
 
@@ -314,23 +256,25 @@
               <p class="familia">NOSOTROS</p>
               <p class="apasionados"> Somos un grupo de geeks Apasionados por resolver lo complejo y complicado 
                 de la vida con tecnología, haciendo las cosas más fáciles y sencillas.</p>
-                <img src="img/group-13-copy (2).png" alt="" class="enviar">
-            <img src="img/nosotros.png" alt="Familia Geek">
-          </div>
+               <a href="./portafolio.pdf" download> <img src="img/group-13-copy (2).png" alt="portafolio" class="enviar"></a>
+              </div>
+              <div class="fami">
+               <img src="img/nosotros.png" alt="Familia Geek">
+              </div>
             <!-- <a href="./portafolio.pdf" download class="light-green-effect btn descarga">Descarga nuestra presentación</a> -->
           
 
 </section>
 
 <section class="cuenta">
-          <div class="contacto">
+          <div class="contacto" id="contacto">
             <div class="container">
               <div class="row">
                 <div class="col s12 m6 l7">
                   <div class="titulos">
                     <p class="familia">CONTACTO</p>
+                  </div>
                   <p class="cuentanos">Cuéntanos tu proyecto y te enviamos un presupuesto sin compromiso.</p>
-                </div>
               </div>
                 <div class="col s12 m6 l1"></div>
                 <div class="col s12 m6 l6 formulario">
@@ -366,6 +310,7 @@
                           <label></label>
                         </div>
                       </div>
+
                       <p class="center">
                         <input type="checkbox" id="test5" />
                         <label for="test5">Acepto el <a href="./aviso_privacidad.pdf" style="color: #455464;" target="_blank">Aviso de Privacidad</a></label>
@@ -381,8 +326,9 @@
               </div>
             </div>
           </div>
-          <div style=" background-color: #f6f6f6;">
+          <div style=" background-color: #f7f7f7;">
           <div class="container">
+            <br>
                 <div class="col s12 m6 l5">
                   <p class="contact-info s"><img src="img/pin.png"> &nbsp;Oficinas Ciudad de México</p>
                   <p class="contact-info m">Avenida Álvaro Obregón 151, Colonia Roma Norte, CP 06700, CDMX, México.</p>
@@ -399,13 +345,14 @@
                 
           
           <div class="foot">
-            <p>Banana Geek ® 2021 | Todos los Derechos
+            <p>Banana Geek ® 2021 <br> Todos los Derechos
 Reservados | <a href="./aviso_privacidad.pdf" style="color: #455464;" target="_blank">Aviso de Privacidad</a></p>
           </div>
         </div>
         </div>
-</section>
-          
+        
+
+          </section>
         </main>
 
       <!--Import jQuery before materialize.js-->
@@ -555,8 +502,14 @@ $(function () { // wait for document ready
 			}
 		});
 
+    var controller2 = new ScrollMagic.Controller({
+			globalSceneOptions: {
+				triggerHook: 'onLeave',
+        duration: 10
+      }
+      });
 		// get all slides
-		var slides = document.querySelectorAll("section");
+		var slides = document.querySelectorAll("div.efecto, section.hed");
 
 		// create scene for every slide
 		for (var i=0; i<slides.length; i++) {
@@ -564,10 +517,25 @@ $(function () { // wait for document ready
 					triggerElement: slides[i]
 				})
 				.setPin(slides[i], {pushFollowers: false})
-        .addIndicators() // add indicators (requires plugin)
+       
 				.addTo(controller);
 		}
-	});
+    var slides2 = document.querySelectorAll("section.tec, section.pro");
+// create scene for every slide
+for (var i=0; i<slides2.length; i++) {
+  new ScrollMagic.Scene({
+      triggerElement: slides2[i]
+    })
+    .setPin(slides2[i], {pushFollowers: true})
+    
+    .addTo(controller2);
+  };
+  
+  
+  });
+
+
+  
 </script>
 
 <script>

@@ -50,12 +50,13 @@ body{
 .header{
     width: 100%;
     text-align: center;
-    background-image: url("../img/recortado.jpg");
+    background-image: url("../img/header_landing_movil-01.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     padding: 12px 15px 76px;;
     object-fit: contain;
     margin: 0 0 50px 1px;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.24);
    
 }
 
@@ -66,37 +67,36 @@ body{
 }
 
 .necesitas {
-    font-family: 'Raleway', sans-serif;
-    margin: 0px;
-    font-size: 47px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.34;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
+  margin: 0px;
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  font-family: 'Raleway', sans-serif;
+  font-size: 47px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
     
 }
 
 .necesitas span{
-  margin: 0px;
   font-size: 73.9px;
 }
 
-.imaginas {
-    margin: 0px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.23;
-    letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-  
+.imaginas {  
+   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+   font-family: 'Raleway', sans-serif;
+   font-size: 26px;
+   margin-top: 10px ;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.23;
+   letter-spacing: normal;
+   text-align: center;
+   color: #fff;
  
 }
   
@@ -144,9 +144,9 @@ body{
 }
 
 .nuestro{
-  margin: 50px 39px 7px;
+  margin: 40px 39px 7px;
   background-image: linear-gradient(to bottom, #fad961, #f76b1c 212%);
-  font-family: 'Raleway', sans-serif;
+  font-family:'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 600;
   font-stretch: normal;
@@ -158,6 +158,7 @@ body{
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .nuestro span{
   font-size: 30px;
   font-weight: 800;
@@ -283,9 +284,21 @@ body{
   }
 
   .cartas{
-    margin: 10px 0px 0px;
     line-height: 0;
   }
+
+  .efecto{
+    background: white;
+  }
+  
+  .efecto img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
 
   .cartas .row .col{
       padding: 0;
@@ -321,47 +334,10 @@ body{
     color: #455464;
   }
 
-  .proceso{
-    text-align: center;
-  }
+  
 
-  .nuestro {
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #455464;
-    text-transform: uppercase;
-  }
-
-  .nuestro span{
-    font-weight: bold;
-  }
-
-  .pasos{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-  }
-
-  .paso{
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .paso img{
-    width: 90%;
-  }
 
   .tecnologies{
-    padding-top: 5rem;
     background-color: #f7f7f7;
     align-content: center;
     text-align: center;
@@ -428,7 +404,7 @@ body{
     background-color: #7ed321 !important;
       border-radius: 8px;
       width: 258px;
-  height: 62px;
+      height: 62px;
       font-family: 'Raleway', sans-serif;
       font-size: 18.6px;
       font-weight: 800;
@@ -448,7 +424,7 @@ body{
   }
 
   .cuentanos {
-    margin: 14px 39px 0;
+    margin: 14px 20px 0;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -458,6 +434,8 @@ body{
     letter-spacing: normal;
     text-align: center;
     color: #455464;
+
+   
 
   }
 
@@ -484,10 +462,12 @@ body{
 
   .m{
     margin-left: 24px;
+    margin-top: 0px;
   }
 
   .s{
-    font-weight: bold;
+    font-weight: 800;
+    margin-bottom: 0px ;
   }
 
   .foot{
@@ -496,7 +476,7 @@ body{
   }
 
   .foot p{
-    margin: 33px 32px 0 12px;
+    margin: 33px 0px 12px;
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -511,26 +491,45 @@ body{
 }
 
 input{
-  background-color: #f6f6f6 !important;
+  /* background-color: #f6f6f6 !important; */
   border-bottom: 1px solid #f6f6f6 !important;
   font-size: 13.3px;
   height: 2rem !important;
-  padding-left: 10px !important;
+  /* padding-left: 10px !important; */
+  
+  
 }
 
 .input-field{
   /* margin-top: 0;
   padding-left: 10px !important; */
-  height: 50px;
+  /* height: 50px;
+  padding: 16px 175px 16px 25px;
+  border-radius: 5px;
+  background-color: #f6f6f6; */
+  width: 100%;
+  height: auto;
   padding: 16px 175px 16px 25px;
   border-radius: 5px;
   background-color: #f6f6f6;
+  
+ 
 }
 
 .input-field.col label {
   /* font-size: 13.3px;
   padding-left: 10px;
   transform: translateY(8px); */
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4c4c4c;
+}
+.input-field.col option {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -551,7 +550,7 @@ input{
 }
 
 [type="checkbox"]+label {
-  padding-top: 3px;
+  /* padding-top: 3px;
   font-family: 'Raleway', sans-serif;
   font-size: 10.7px;
   font-weight: 500;
@@ -559,8 +558,21 @@ input{
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
+  color: #455464; */
+
+  
+
+  margin: 23px 4px 4px 9px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
   color: #455464;
 }
+
+
 
 
 /* dansDev */
@@ -589,37 +601,15 @@ input{
 img.banana-geek {
   width: 95.1px;
   height: 77px;
-  margin: 0 1px 147px 0px;
+  margin: 0 248.9px 147px 0px;
   object-fit: contain;
 }
 
-.cli_posicion{
+
+.fami img{
   width: 100%;
-  text-align: center;
-  align-content: center;
-}
-
-
-.nuestro-portafolio {
-  background-image: linear-gradient(to bottom, #fad961, #f76b1c 212%);
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.nuestro-portafolio .text-style-1 {
-  font-size: 30px;
-  font-weight: 600;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  height: auto;
+  object-fit: contain;
 }
   
 .familia{
@@ -636,6 +626,7 @@ img.banana-geek {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 .apasionados{
@@ -648,7 +639,7 @@ img.banana-geek {
   line-height: 1.69;
   letter-spacing: normal;
   text-align: center;
-  color: #231f20;
+  color: #231f20;  
 }
 
 .contenedor-carrusel{
@@ -658,25 +649,46 @@ img.banana-geek {
 }
 
   img.enviar{
+  margin: 17px 22px 23px 23px;
   object-fit: contain;
   position: center;
   }
-
-  .proc{
-    width: 137px;
-    height: 264px;
-    margin: 69px 33.8px 103px 60px;
-    object-fit: contain;
-  }
   
-  .linea{
-    width: 46px;
-    height: 309px;
-    margin: 46px 19px 81px;
+  .proce img{
+    width: 100%;
+    height: auto;
+    margin: 21px 0 2px 1px;
     object-fit: contain;
   }
 
   section{
-background: white;
+background: #fff;
   }
 
+  [type="checkbox"]+label::before{
+    width: 22px;
+    height: 22px;
+    margin: 0 9px 0 0;
+    border-radius: 3px;
+    border: solid 1px #d7d7d7;
+    background-color: #fff;
+  }  
+
+    input.select-dropdown{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+
+
+.caret{
+  width: 8px;
+  height: 13px;
+  margin: 3px 0 2px 100px;
+  
+}
